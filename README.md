@@ -19,3 +19,12 @@ This is the initial task for the Outreachy application process for the Wikimedia
 -Initialized Git on the project and added the remote url of the repository
 <br>
 -Added the boilerplate code into a commit and pushed the change 
+<br>
+-Designed a page with 2 elements: A full-width banner with content describing something I enjoy and a form with a control that uses javascript to change the elements of the banner without reloading the page
+<br>
+-Added the feature of a color picker to change the banner background 
+<br>
+-Used HTML<canvas> to change and edit the banner text along with text font and style. Also added the color picker to change the colour of the text of the banner
+<br>
+-Implemented the upload and change feature on the image of the banner
+<br>
