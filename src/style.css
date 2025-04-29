@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply h-full bg-teal-50;
+}
+
+.banner {
+  @apply bg-amber-300 border border-inherit h-1/2 w-full;
+}
+.box {
+  @apply ml-80;
+}
+.myCanvas {
+  @apply border border-transparent h-28 w-96 absolute left-1/2 transform -translate-x-1/2 top-10;
+}
+.bannerImage {
+  @apply h-52 w-1/2 mt-24 ml-80;
+}
+.button {
+  @apply border-4 bg-cyan-700 rounded-full h-8 w-8;
+}
+.font-style {
+  @apply border-4 bg-white w-32 h-7;
+}
+.font-family {
+  @apply border-4 bg-white cursor-pointer w-12 h-8;
+}
+.modal {
+  @apply hidden fixed right-0 top-0 w-full h-full overflow-auto; 
+}
+.modal-content {
+  @apply bg-black text-white not-italic p-0.5 w-40 h-36 mt-80 ml-96;
+}
+.style1:hover {
+  @apply bg-orange-500;
+}
+.style1 {
+  @apply cursor-pointer;
+}
+.style2:hover {
+  @apply bg-yellow-300;
+}
+.style2 {
+  @apply cursor-pointer;
+}
+.style3:hover {
+  @apply bg-indigo-400;
+}
+.style3 {
+  @apply cursor-pointer;
+}
+.style4:hover {
+  @apply bg-lime-400;
+}
+.style4 {
+  @apply cursor-pointer;
+}
+.style5:hover {
+  @apply bg-pink-600;
+}
+.style5 {
+  @apply cursor-pointer;
+}
