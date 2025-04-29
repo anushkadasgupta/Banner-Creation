@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Banner Project</title>
+  </head>
+  <body>
+    <div class="banner" id="banner">
+      <canvas id="myCanvas" class="myCanvas"></canvas>
+      <img src="beach.jpg" alt="Beach" id="bannerImage" class="bannerImage" />
+    </div>
+    <br>
+    <div class="box" id="box">
+      <label for="colorPicker" class="inline-block text-lg font-medium">Change the banner background:</label>
+      <input type="color" id="colorPicker" value="#ffbf00" class="w-6 h-7 border rounded cursor-pointer">
+      <br>
+      <p class="text-lg font-medium inline-block">Change the banner text, write something:</p> <textarea id="textInput" class="border-4 rounded h-8 w-60"></textarea>
+      <br>
+      <p class="text-lg font-medium inline-block">Click to change the banner image:</p> <label for="img" class="image-upload"></label>
+      <input type="file" id="img" accept="image/*">
+      <br>
+      <p class="text-lg font-medium inline-block">Change the text style:</p> <button class="font-style">
+        <i class="fa-solid fa-font" id="normal-icon" style="cursor:pointer" title="Normal"></i>
+        <i class="fa-solid fa-bold" id="bold-icon" style="cursor:pointer" title="Bold"></i>
+        <i class="fa-solid fa-italic" id="italic-icon" style="cursor:pointer" title="Italic"></i>
+      </button>
+      <br>
+      <p class="text-lg font-medium inline-block">Change the text font:</p> <button class="font-family" id="font-family"><i class="fa-solid fa-angle-down" class="text-lg"></i></button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <p class="style1" id="style1"><b>Arial</b></p>
+          <p class="style2" id="style2"><b>Cursive</b></p>
+          <p class="style3" id="style3"><b>Times New Roman</b></p>
+          <p class="style4" id="style4"><b>sans-serif</b></p>
+          <p class="style5" id="style5"><b>Verdana</b></p>
+        </div>
+      </div>
+      <br>
+      <label for="colorPicker" class="inline-block text-lg font-medium">Change the banner text colour:</label>
+      <input type="color" id="textColorPicker" value="#000000" class="w-6 h-7 border rounded cursor-pointer">
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
