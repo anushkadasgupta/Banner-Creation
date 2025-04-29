@@ -1,6 +1,6 @@
 # Banner-Creation                               
 This is the initial task for the Outreachy application process for the Wikimedia "Create a tool to simplify creation of Mediawiki banners" project                                 
-<h1>Tech Stack</h1>                                         
+<h1>Tech Stack:</h1>                                         
 -Vite    
 <br>
 -HTML   
@@ -13,7 +13,7 @@ This is the initial task for the Outreachy application process for the Wikimedia
 <br>
 -Netlify(for deployment)
 <br>
-<h1>Description</h1>
+<h1>Description:</h1>
 -Created a front-end project using Vite, HTML, Tailwindcss, Vanilla Javascript and Vitest
 <br>
 -Initialized Git on the project and added the remote url of the repository
@@ -30,7 +30,7 @@ This is the initial task for the Outreachy application process for the Wikimedia
 <br>
 -Implemented unit testing using Vitest
 <br>
-<h1>Link to the project</h1>
+<h1>Link to the project:</h1>
 <p>Github Repository: https://github.com/anushkadasgupta/Banner-Creation</p>
 <br>
 <p>Live Demo: https://bannercreation.netlify.app/</p>
