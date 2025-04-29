@@ -28,3 +28,4 @@ This is the initial task for the Outreachy application process for the Wikimedia
 <br>
 -Implemented the upload and change feature on the image of the banner
 <br>
+-Implemented unit testing using Vitest
