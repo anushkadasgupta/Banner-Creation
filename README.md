@@ -29,3 +29,10 @@ This is the initial task for the Outreachy application process for the Wikimedia
 -Implemented the upload and change feature on the image of the banner
 <br>
 -Implemented unit testing using Vitest
+<br>
+<h1>Link to the project</h1>
+<p>Github Repository: https://github.com/anushkadasgupta/Banner-Creation</p>
+<br>
+<p>Live Demo: https://bannercreation.netlify.app/</p>
+<br>
+<p>Unit Testing: Implemented with Vitest</p>
