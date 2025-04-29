@@ -30,9 +30,11 @@ This is the initial task for the Outreachy application process for the Wikimedia
 <br>
 -Implemented unit testing using Vitest
 <br>
+-Deployed the project using Netlify
 <h1>Link to the project:</h1>
 <p>Github Repository: https://github.com/anushkadasgupta/Banner-Creation</p>
 <br>
 <p>Live Demo: https://bannercreation.netlify.app/</p>
 <br>
 <p>Unit Testing: Implemented with Vitest</p>
+
