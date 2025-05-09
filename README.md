@@ -34,6 +34,5 @@
 <p>Github Repository: https://github.com/anushkadasgupta/Banner-Creation</p>
 <br>
 <p>Live Demo: https://bannercreation.netlify.app/</p>
-<br>
-<p>Unit Testing: Implemented with Vitest</p>
+
 
