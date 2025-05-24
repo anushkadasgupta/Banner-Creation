@@ -33,6 +33,6 @@
 <h1>Link to the project:</h1>
 <p>Github Repository: https://github.com/anushkadasgupta/Banner-Creation</p>
 <br>
-<p>Live Demo: https://bannercreation.netlify.app/</p>
+<p>Live Demo: https://banner-creation.vercel.app/</p>
 
 
